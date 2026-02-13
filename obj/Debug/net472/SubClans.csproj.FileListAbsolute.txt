@@ -1,0 +1,9 @@
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.csproj.AssemblyReference.cache
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.GeneratedMSBuildEditorConfig.editorconfig
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.AssemblyInfoInputs.cache
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.AssemblyInfo.cs
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.csproj.CoreCompileInputs.cache
+F:\BannerlordsMods\SubClans\bin\Debug\net472\SubClans.dll
+F:\BannerlordsMods\SubClans\bin\Debug\net472\SubClans.pdb
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.dll
+F:\BannerlordsMods\SubClans\obj\Debug\net472\SubClans.pdb
