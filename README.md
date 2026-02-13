@@ -51,6 +51,6 @@ cd SubClans
 Binaries are emitted to `bin/Debug/net472` and `bin/Debug/net6`. Release builds can be produced with `dotnet build -c Release SubClans.csproj`.
 
 ## Credits
-- Original concept and testing: Felix Gillmann.
-- Implementation: SubClans development team.
+- Original concept and testing: Dolobarsch.
+- Implementation: Dolobarsch.
 - Bannerlord and TaleWorlds assemblies remain the property of TaleWorlds Entertainment.
