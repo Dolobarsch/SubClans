@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\BannerlordsMods\\SubClans\\SubClans.csproj": {}
+    "F:\\BannerlordsMods\\SubClans\\SubClans.csproj": {}
   },
   "projects": {
-    "f:\\BannerlordsMods\\SubClans\\SubClans.csproj": {
+    "F:\\BannerlordsMods\\SubClans\\SubClans.csproj": {
       "version": "0.0.1",
       "restore": {
-        "projectUniqueName": "f:\\BannerlordsMods\\SubClans\\SubClans.csproj",
+        "projectUniqueName": "F:\\BannerlordsMods\\SubClans\\SubClans.csproj",
         "projectName": "SubClans",
-        "projectPath": "f:\\BannerlordsMods\\SubClans\\SubClans.csproj",
+        "projectPath": "F:\\BannerlordsMods\\SubClans\\SubClans.csproj",
         "packagesPath": "C:\\Users\\Felix Gillmann\\.nuget\\packages\\",
-        "outputPath": "f:\\BannerlordsMods\\SubClans\\obj\\",
+        "outputPath": "F:\\BannerlordsMods\\SubClans\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -70,6 +70,11 @@
               "target": "Package",
               "version": "[1.1.0.124, )"
             },
+            "Bannerlord.MCM": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[5.11.3, )"
+            },
             "Harmony.Extensions": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -126,6 +131,11 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.1.0.124, )"
+            },
+            "Bannerlord.MCM": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[5.11.3, )"
             },
             "Harmony.Extensions": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="繁體中文" />
+  </tags>
+  <strings>
+    <string id="SubClans_BranchFormal" text="{LEADER}的{SOURCE_CLAN}{SUFFIX}" />
+    <string id="SubClans_BranchInformal" text="{LEADER} {SUFFIX}" />
+    <string id="SubClans_SplitInfo" text="{SOURCE_CLAN}已在{LEADER}的領導下建立了{NEW_CLAN}。" />
+    <string id="SubClans_PlayerInfo" text="您的家族已重組：{SOURCE_CLAN}建立了由{LEADER}領導的{NEW_CLAN}。" />
+    <string id="SubClans_Setting_BranchSuffix" text="分支後綴" />
+    <string id="SubClans_Setting_BranchSuffix_Hint" text="附加在家族名稱後的後綴，例如「旁支」將產生「領袖的源家族 旁支」。" />
+    <string id="SubClans_Setting_Group_Naming" text="命名" />
+    <string id="SubClans_Setting_Threshold" text="家族成員閾值" />
+    <string id="SubClans_Setting_Threshold_Hint" text="家族中非流浪者的存活英雄最低數量，達到後才會分裂。" />
+    <string id="SubClans_Setting_Cooldown" text="分裂冷卻時間（天）" />
+    <string id="SubClans_Setting_Cooldown_Hint" text="同一家族兩次分裂之間的最短天數。" />
+    <string id="SubClans_Setting_Group_Split" text="分裂規則" />
+  </strings>
+</base>

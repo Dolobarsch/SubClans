@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bggXw4/NQ00=",
+  "dgSpecHash": "uKvhm57fRP4=",
   "success": true,
-  "projectFilePath": "f:\\BannerlordsMods\\SubClans\\SubClans.csproj",
+  "projectFilePath": "F:\\BannerlordsMods\\SubClans\\SubClans.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felix Gillmann\\.nuget\\packages\\bannerlord.buildresources\\1.1.0.124\\bannerlord.buildresources.1.1.0.124.nupkg.sha512",
+    "C:\\Users\\Felix Gillmann\\.nuget\\packages\\bannerlord.mcm\\5.11.3\\bannerlord.mcm.5.11.3.nupkg.sha512",
     "C:\\Users\\Felix Gillmann\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512",
     "C:\\Users\\Felix Gillmann\\.nuget\\packages\\harmony.extensions\\3.2.0.77\\harmony.extensions.3.2.0.77.nupkg.sha512",
     "C:\\Users\\Felix Gillmann\\.nuget\\packages\\isexternalinit\\1.0.3\\isexternalinit.1.0.3.nupkg.sha512",

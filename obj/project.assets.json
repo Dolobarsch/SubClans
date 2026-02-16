@@ -13,6 +13,22 @@
           "buildMultiTargeting/Bannerlord.BuildResources.targets": {}
         }
       },
+      "Bannerlord.MCM/5.11.3": {
+        "type": "package",
+        "dependencies": {
+          "Lib.Harmony": "2.2.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/MCMv5.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb"
+          }
+        }
+      },
       "BUTR.Harmony.Analyzer/1.0.1.50": {
         "type": "package"
       },
@@ -249,6 +265,22 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Bannerlord.BuildResources.props": {},
           "buildMultiTargeting/Bannerlord.BuildResources.targets": {}
+        }
+      },
+      "Bannerlord.MCM/5.11.3": {
+        "type": "package",
+        "dependencies": {
+          "Lib.Harmony": "2.2.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/MCMv5.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb"
+          }
         }
       },
       "BUTR.Harmony.Analyzer/1.0.1.50": {
@@ -510,6 +542,20 @@
         "buildMultiTargeting/Bannerlord.BuildResources.props",
         "buildMultiTargeting/Bannerlord.BuildResources.targets",
         "tools/_._"
+      ]
+    },
+    "Bannerlord.MCM/5.11.3": {
+      "sha512": "5vUJvDczInZQgBlr2c/Z+wc56ROqWJO29KZIsIpFykPoQKyafrseiYdRfkh01zZgk0kUvpA+L1h1faVAk4KaDA==",
+      "type": "package",
+      "path": "bannerlord.mcm/5.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MCM-128-w-2.png",
+        "bannerlord.mcm.5.11.3.nupkg.sha512",
+        "bannerlord.mcm.nuspec",
+        "lib/netstandard2.0/MCMv5.dll",
+        "lib/netstandard2.0/MCMv5.pdb"
       ]
     },
     "BUTR.Harmony.Analyzer/1.0.1.50": {
@@ -1077,6 +1123,7 @@
     ".NETFramework,Version=v4.7.2": [
       "BUTR.Harmony.Analyzer >= 1.0.1.50",
       "Bannerlord.BuildResources >= 1.1.0.124",
+      "Bannerlord.MCM >= 5.11.3",
       "Harmony.Extensions >= 3.2.0.77",
       "IsExternalInit >= 1.0.3",
       "Lib.Harmony >= 2.3.3",
@@ -1085,6 +1132,7 @@
     "net6.0": [
       "BUTR.Harmony.Analyzer >= 1.0.1.50",
       "Bannerlord.BuildResources >= 1.1.0.124",
+      "Bannerlord.MCM >= 5.11.3",
       "Harmony.Extensions >= 3.2.0.77",
       "IsExternalInit >= 1.0.3",
       "Lib.Harmony >= 2.3.3",
@@ -1099,11 +1147,11 @@
   "project": {
     "version": "0.0.1",
     "restore": {
-      "projectUniqueName": "f:\\BannerlordsMods\\SubClans\\SubClans.csproj",
+      "projectUniqueName": "F:\\BannerlordsMods\\SubClans\\SubClans.csproj",
       "projectName": "SubClans",
-      "projectPath": "f:\\BannerlordsMods\\SubClans\\SubClans.csproj",
+      "projectPath": "F:\\BannerlordsMods\\SubClans\\SubClans.csproj",
       "packagesPath": "C:\\Users\\Felix Gillmann\\.nuget\\packages\\",
-      "outputPath": "f:\\BannerlordsMods\\SubClans\\obj\\",
+      "outputPath": "F:\\BannerlordsMods\\SubClans\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -1162,6 +1210,11 @@
             "target": "Package",
             "version": "[1.1.0.124, )"
           },
+          "Bannerlord.MCM": {
+            "include": "Compile",
+            "target": "Package",
+            "version": "[5.11.3, )"
+          },
           "Harmony.Extensions": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -1218,6 +1271,11 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.1.0.124, )"
+          },
+          "Bannerlord.MCM": {
+            "include": "Compile",
+            "target": "Package",
+            "version": "[5.11.3, )"
           },
           "Harmony.Extensions": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

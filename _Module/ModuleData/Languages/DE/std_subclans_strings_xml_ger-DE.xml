@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="SubClans_BranchFormal" text="{LEADER}s {SOURCE_CLAN} {SUFFIX}" />
+    <string id="SubClans_BranchInformal" text="{LEADER} {SUFFIX}" />
+    <string id="SubClans_SplitInfo" text="{SOURCE_CLAN} hat {NEW_CLAN} unter {LEADER} gegründet." />
+    <string id="SubClans_PlayerInfo" text="Euer Klan wurde reorganisiert: {SOURCE_CLAN} gründete {NEW_CLAN} unter der Führung von {LEADER}." />
+    <string id="SubClans_Setting_BranchSuffix" text="Zweig-Suffix" />
+    <string id="SubClans_Setting_BranchSuffix_Hint" text="Das Suffix, das an den Klannamen angehängt wird, z.B. 'Kadettenzweig' ergibt 'Anführers Quellklan Kadettenzweig'." />
+    <string id="SubClans_Setting_Group_Naming" text="Benennung" />
+    <string id="SubClans_Setting_Threshold" text="Klanmitglieder-Schwelle" />
+    <string id="SubClans_Setting_Threshold_Hint" text="Mindestanzahl lebender Nicht-Wanderer-Helden in einem Klan, bevor er sich spalten kann." />
+    <string id="SubClans_Setting_Cooldown" text="Abspaltungs-Abklingzeit (Tage)" />
+    <string id="SubClans_Setting_Cooldown_Hint" text="Mindestanzahl an Tagen zwischen Abspaltungen desselben Klans." />
+    <string id="SubClans_Setting_Group_Split" text="Abspaltungsregeln" />
+  </strings>
+</base>

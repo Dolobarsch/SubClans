@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="SubClans_BranchFormal" text="{LEADER}'s {SOURCE_CLAN} {SUFFIX}" />
+    <string id="SubClans_BranchInformal" text="{LEADER} {SUFFIX}" />
+    <string id="SubClans_SplitInfo" text="{SOURCE_CLAN} has founded {NEW_CLAN} under {LEADER}." />
+    <string id="SubClans_PlayerInfo" text="Your clan has reorganized: {SOURCE_CLAN} created {NEW_CLAN} led by {LEADER}." />
+    <string id="SubClans_Setting_BranchSuffix" text="Branch Suffix" />
+    <string id="SubClans_Setting_BranchSuffix_Hint" text="The suffix appended to the clan name, e.g. 'Cadet Branch' produces 'Leader's SourceClan Cadet Branch'." />
+    <string id="SubClans_Setting_Group_Naming" text="Naming" />
+    <string id="SubClans_Setting_Threshold" text="Clan Member Threshold" />
+    <string id="SubClans_Setting_Threshold_Hint" text="Minimum number of non-wanderer living heroes in a clan before it can split." />
+    <string id="SubClans_Setting_Cooldown" text="Split Cooldown (Days)" />
+    <string id="SubClans_Setting_Cooldown_Hint" text="Minimum number of days between splits for the same clan." />
+    <string id="SubClans_Setting_Group_Split" text="Split Rules" />
+  </strings>
+</base>
