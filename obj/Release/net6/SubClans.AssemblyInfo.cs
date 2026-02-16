@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubClans")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1+cd7f1ea1a051bc5a4bf068868fff51c30d191b0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1+fff8d90521313e4684884674f650f8577df0b23d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubClans")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubClans")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.1.0")]
