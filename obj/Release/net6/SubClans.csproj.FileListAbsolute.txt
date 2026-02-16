@@ -1,0 +1,13 @@
+F:\BannerlordsMods\SubClans\bin\Release\net6\SubClans.deps.json
+F:\BannerlordsMods\SubClans\bin\Release\net6\SubClans.dll
+F:\BannerlordsMods\SubClans\bin\Release\net6\SubClans.pdb
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.csproj.AssemblyReference.cache
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.GeneratedMSBuildEditorConfig.editorconfig
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.AssemblyInfoInputs.cache
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.AssemblyInfo.cs
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.csproj.CoreCompileInputs.cache
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.sourcelink.json
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.dll
+F:\BannerlordsMods\SubClans\obj\Release\net6\refint\SubClans.dll
+F:\BannerlordsMods\SubClans\obj\Release\net6\SubClans.pdb
+F:\BannerlordsMods\SubClans\obj\Release\net6\ref\SubClans.dll

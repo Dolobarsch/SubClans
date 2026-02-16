@@ -12,10 +12,10 @@ namespace SubClans
 {
     public class SubClanBehavior : CampaignBehaviorBase
     {
-        private const int ClanMemberThreshold = 10;
-        private const float SplitCooldownInDays = 15f;
-
         private Dictionary<string, CampaignTime> _lastSplitPerClan = new Dictionary<string, CampaignTime>();
+
+        private static int ClanMemberThreshold => SubClansSettings.Instance?.ClanMemberThreshold ?? 10;
+        private static float SplitCooldownInDays => SubClansSettings.Instance?.SplitCooldownInDays ?? 15f;
 
         public override void RegisterEvents()
         {
@@ -211,12 +211,16 @@ namespace SubClans
 
         private static (TextObject Name, TextObject InformalName) CreateBranchNames(Clan sourceClan, Hero newLeader)
         {
-            TextObject formal = new TextObject("{=SubClans_BranchFormal}{LEADER}'s {SOURCE_CLAN} Cadet Branch");
+            string suffix = SubClansSettings.Instance?.BranchSuffix ?? "Cadet Branch";
+
+            TextObject formal = new TextObject("{=SubClans_BranchFormal}{LEADER}'s {SOURCE_CLAN} {SUFFIX}");
             formal.SetTextVariable("LEADER", newLeader.Name);
             formal.SetTextVariable("SOURCE_CLAN", sourceClan.Name);
+            formal.SetTextVariable("SUFFIX", suffix);
 
-            TextObject informal = new TextObject("{=SubClans_BranchInformal}{LEADER} Cadets");
+            TextObject informal = new TextObject("{=SubClans_BranchInformal}{LEADER} {SUFFIX}");
             informal.SetTextVariable("LEADER", newLeader.Name);
+            informal.SetTextVariable("SUFFIX", suffix);
 
             return (formal, informal);
         }
